@@ -1,0 +1,21 @@
+<mat-sidenav-container class="sidenav-container" autosize>
+  <mat-sidenav opened mode="side" [disableClose]="true" class="sidenav">
+    <mat-nav-list>
+      <div class="sidenav-list-header">
+        <h2>Angular Challenge</h2>
+      </div>
+      <mat-divider></mat-divider>
+
+      <mat-list role="list">
+        <mat-list-item role="listitem" class="address-item">ADDRESS BOOK</mat-list-item>
+      </mat-list>
+
+      <!-- <ng-container *ngFor="let folder of foldersEmitter$ | async">
+        <app-folder [folder]="folder"></app-folder>
+      </ng-container> -->
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

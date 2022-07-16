@@ -1,0 +1,21 @@
+.address {
+  padding: 1.3rem;
+  margin-bottom: 0.5rem;
+  
+  ::ng-deep .mat-card-header-text {
+    margin: 0 0 .7rem 0;
+  }
+
+  &-info {
+    margin-bottom: 1rem;
+
+    :last-child {
+      margin-bottom: 0;
+    }
+
+    .title {
+      font-weight: 500;
+      margin-right: 2rem;
+    }
+  }
+}
